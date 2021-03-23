@@ -35,11 +35,11 @@ const data = [
         description: "lodashjs"
       },
       {
-        title: "Element",
-        icon: "https://element.eleme.cn/favicon.ico",
-        href: "https://element.eleme.cn/",
-        description:
-          "Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库"
+        title: "阿里云盘",
+        icon:
+          "https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico",
+        href: "https://aliyundrive.com/",
+        description: "你的数字世界"
       }
     ]
   },
@@ -114,7 +114,7 @@ const data = [
           },
 
           {
-            title: "Angular 文档",
+            title: "Angular",
             icon: "https://angular.cn/assets/images/favicons/favicon.ico",
             href: "https://angular.cn/",
             description: "一套框架，多种平台；移动端 & 桌面端"
@@ -133,85 +133,10 @@ const data = [
             description: "eggjs"
           },
           {
-            title: "Webpackjs",
+            title: "webpackjs",
             icon: "https://www.webpackjs.com/assets/favicon.ico",
             href: "https://www.webpackjs.com/",
             description: "打包所有的 资源"
-          }
-        ]
-      },
-      {
-        name: "补充框架",
-        type: "489035cc-65b5-4578-8c7b-6d79edd7b61a",
-        icon: "dribbble",
-        list: [
-          {
-            title: "Vuex",
-            icon: "https://cn.vuejs.org/images/icons/favicon-32x32.png",
-            href: "https://vuex.vuejs.org/zh/",
-            description: "一个专为 Vue.js 应用程序开发的状态管理模式"
-          },
-          {
-            title: "Vue Router",
-            icon: "https://cn.vuejs.org/images/icons/favicon-32x32.png",
-            href: "https://router.vuejs.org/zh/",
-            description: "Vue Router 是 Vue.js 官方的路由管理器"
-          },
-          {
-            title: "Vue CLI",
-            icon: "https://cn.vuejs.org/images/icons/favicon-32x32.png",
-            href: "https://cli.vuejs.org/zh/",
-            description: "Vue.js 开发的标准工具"
-          },
-          {
-            title: "Vue-Element-Admin",
-            icon:
-              "https://panjiachen.gitee.io/vue-element-admin-site/favicon.ico",
-            href: "https://panjiachen.gitee.io/vue-element-admin-site/zh/",
-            description: "vue-element-admin"
-          },
-          {
-            title: "React Router",
-            icon: "https://reactrouter.com/favicon-32x32.png",
-            href: "https://reacttraining.com/react-router/",
-            description:
-              "React Router is a collection of navigational components that compose declaratively with your application."
-          },
-          {
-            title: "Next.js",
-            icon: "https://nextjs.org/static/favicon/favicon.ico",
-            href: "https://nextjs.org/",
-            description: "The React Framework"
-          },
-          {
-            title: "Animate.css",
-            icon: "https://animate.style/img/favicon.ico",
-            href: "https://animate.style/",
-            description: "Just-add-water CSS animations"
-          },
-          {
-            title: "Velocity.js",
-            icon: "./icons/velocity.ico",
-            href: "http://shouce.jb51.net/velocity/index.html",
-            description: "简单易用、高性能、功能丰富的轻量级JS动画库"
-          },
-          {
-            title: "Three.js",
-            icon: "https://threejs.org/files/favicon.ico",
-            href: "https://threejs.org/",
-            description: "JavaScript 3D library"
-          },
-          {
-            title: "Postcss",
-            icon: "https://www.postcss.com.cn/favicon.8a995d15.ico",
-            href: "https://www.postcss.com.cn/",
-            description: "postcss"
-          },
-          {
-            title: "jqGrid",
-            icon: "https://blog.mn886.net/favicon.ico",
-            href: "https://blog.mn886.net/jqGrid/",
-            description: "jqGrid"
           }
         ]
       },
@@ -260,10 +185,91 @@ const data = [
             description: "再也找不到了"
           }
         ]
+      },
+      {
+        name: "其他框架",
+        type: "489035cc-65b5-4578-8c7b-6d79edd7b61a",
+        icon: "dribbble",
+        list: [
+          {
+            title: "Vue CLI",
+            icon: "https://cn.vuejs.org/images/icons/favicon-32x32.png",
+            href: "https://cli.vuejs.org/zh/",
+            description: "Vue.js 开发的标准工具"
+          },
+          {
+            title: "Vue-Element-Admin",
+            icon:
+              "https://panjiachen.gitee.io/vue-element-admin-site/favicon.ico",
+            href: "https://panjiachen.gitee.io/vue-element-admin-site/zh/",
+            description: "vue-element-admin"
+          },
+          {
+            title: "nuxtjs",
+            icon: "https://zh.nuxtjs.org/favicon.ico",
+            href: "https://zh.nuxtjs.org/",
+            description: "易于使用的 Vue 框架"
+          },
+          {
+            title: "React Router",
+            icon: "https://reactrouter.com/favicon-32x32.png",
+            href: "https://reacttraining.com/react-router/",
+            description:
+              "React Router is a collection of navigational components that compose declaratively with your application."
+          },
+          {
+            title: "Koa",
+            icon: "./icons/koa.ico",
+            href: "https://koa.bootcss.com/",
+            description: "基于 Nodejs 平台的下一代 web 开发框架"
+          },
+          {
+            title: "Express",
+            icon: "https://www.expressjs.com.cn/images/favicon.png",
+            href: "https://www.expressjs.com.cn/",
+            description: "基于 Node.js 平台，快速、开放、极简的 Web 开发框架"
+          },
+          {
+            title: "Echarts",
+            icon:
+              "https://cdn.jsdelivr.net/gh/apache/echarts-website@asf-site/zh/images/favicon.png?_v_=20200710_1",
+            href: "https://echarts.apache.org/zh/index.html",
+            description: "一个基于 JavaScript 的开源可视化图表库"
+          },
+          {
+            title: "Animate.css",
+            icon: "https://animate.style/img/favicon.ico",
+            href: "https://animate.style/",
+            description: "Just-add-water CSS animations"
+          },
+          {
+            title: "Velocity.js",
+            icon: "./icons/velocity.ico",
+            href: "http://shouce.jb51.net/velocity/index.html",
+            description: "简单易用、高性能、功能丰富的轻量级JS动画库"
+          },
+          {
+            title: "Three.js",
+            icon: "https://threejs.org/files/favicon.ico",
+            href: "https://threejs.org/",
+            description: "JavaScript 3D library"
+          },
+          {
+            title: "Postcss",
+            icon: "https://www.postcss.com.cn/favicon.8a995d15.ico",
+            href: "https://www.postcss.com.cn/",
+            description: "postcss"
+          },
+          {
+            title: "jqGrid",
+            icon: "https://blog.mn886.net/favicon.ico",
+            href: "https://blog.mn886.net/jqGrid/",
+            description: "jqGrid"
+          }
+        ]
       }
     ]
   },
-
   {
     name: "工具合集",
     type: "3e17458c-5729-46fc-9f5c-25f8ed798633",
