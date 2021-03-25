@@ -112,7 +112,6 @@ const data = [
             href: "https://react.docschina.org/",
             description: "用于构建用户界面的 JavaScript 库"
           },
-
           {
             title: "Angular",
             icon: "https://angular.cn/assets/images/favicons/favicon.ico",
@@ -198,6 +197,12 @@ const data = [
             description: "Vue.js 开发的标准工具"
           },
           {
+            title: "Create React App",
+            icon: "http://www.html.cn/create-react-app/img/favicon/favicon.ico",
+            href: "http://www.html.cn/create-react-app/",
+            description: "Vue.js 开发的标准工具Create React App 中文文档"
+          },
+          {
             title: "Vue-Element-Admin",
             icon:
               "https://panjiachen.gitee.io/vue-element-admin-site/favicon.ico",
@@ -259,12 +264,6 @@ const data = [
             icon: "https://www.postcss.com.cn/favicon.8a995d15.ico",
             href: "https://www.postcss.com.cn/",
             description: "postcss"
-          },
-          {
-            title: "jqGrid",
-            icon: "https://blog.mn886.net/favicon.ico",
-            href: "https://blog.mn886.net/jqGrid/",
-            description: "jqGrid"
           }
         ]
       }
@@ -368,6 +367,13 @@ const data = [
             description: "JavaScript Regular Expression Visualizer."
           },
           {
+            title: "Stackblitz",
+            icon:
+              "https://c.staticblitz.com/assets/icons/icon-144x144-087fc0a60e0073134b9d301ac02a1d2a547db3428c0c010818aa431fa85fffd8.png",
+            href: "https://stackblitz.com/",
+            description: "Stackblitz"
+          },
+          {
             title: "JSRUN.NET",
             icon: "http://jsrun.net/res/favicon.ico",
             href: "http://jsrun.net/",
@@ -410,12 +416,6 @@ const data = [
             icon: "https://mail.163.com/favicon.ico",
             href: "https://mail.163.com/",
             description: "记得每日查看邮件"
-          },
-          {
-            title: "有道翻译",
-            icon: "http://shared.ydstatic.com/images/favicon.ico",
-            href: "http://fanyi.youdao.com/",
-            description: "单词不会这里搜"
           },
           {
             title: "emojipedia",
