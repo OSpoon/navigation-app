@@ -324,6 +324,13 @@ const data = [
             description: "阿里妈妈MUX倾力打造的矢量图标管理、交流平台。"
           },
           {
+            title: "IconPark资源站",
+            icon:
+              "https://sf1-scmcdn-tos.pstatp.com/obj/goofy/ad/bydesign/iconparksite/logo.svg",
+            href: "https://iconpark.bytedance.com/",
+            description: "丰富多彩的资源库免费使用"
+          },
+          {
             title: "Fontawesome",
             icon: "./icons/fontawesome.ico",
             href: "http://www.fontawesome.com.cn/icons-ui/",
@@ -470,7 +477,13 @@ const data = [
             description: "草料二维码生成"
           },
           {
-            title: "在线PS",
+            title: "稿定-设计",
+            icon: "https://www.gaoding.com/favicon.ico",
+            href: "https://www.gaoding.com/templates/fcc1612548-fc1612547",
+            description: "首图图片模板在线设计制作"
+          },
+          {
+            title: "稿定-PS",
             icon: "https://ps.gaoding.com/favicon.ico",
             href: "https://ps.gaoding.com/#/",
             description: "稿定 在线PS"
