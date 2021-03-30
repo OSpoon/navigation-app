@@ -5,10 +5,12 @@ const data = [
     icon: "dashboard",
     list: [
       {
-        title: "返回旧版",
-        icon: "./icons/goback.ico",
-        href: "http://old.it200.cn/",
-        description: "继续使用旧版页面"
+        title: "Stackblitz",
+        icon:
+          "https://c.staticblitz.com/assets/icons/icon-144x144-087fc0a60e0073134b9d301ac02a1d2a547db3428c0c010818aa431fa85fffd8.png",
+        href: "https://stackblitz.com/",
+        description:
+          "StacThe same editing experience. Now in your browser.kblitz"
       },
       {
         title: "BootCDN",
@@ -60,7 +62,7 @@ const data = [
         title: "码云",
         icon: "./icons/gitee.ico",
         href: "https://gitee.com/",
-        description: "码云社区"
+        description: "云端软件开发协作平台"
       },
       {
         title: "掘金社区",
@@ -265,7 +267,7 @@ const data = [
             title: "Postcss",
             icon: "https://www.postcss.com.cn/favicon.8a995d15.ico",
             href: "https://www.postcss.com.cn/",
-            description: "postcss"
+            description: "是一个用 JavaScript 工具和插件转换 CSS 代码的工具"
           }
         ]
       }
@@ -299,7 +301,7 @@ const data = [
             icon:
               "https://static.npmjs.com/b0f1a8318363185cc2ea6a40ac23eeb2.png",
             href: "https://www.npmjs.com/",
-            description: "npmjs"
+            description: "Build amazing things"
           },
           {
             title: "ECMAScript",
@@ -317,7 +319,7 @@ const data = [
             title: "Web 开发技术 | MDN",
             icon: "https://developer.mozilla.org/favicon.ico",
             href: "https://developer.mozilla.org/zh-CN/docs/Web",
-            description: "MDN Web 文档"
+            description: "Web 开发技术 面向 Web 开发者的文档"
           },
           {
             title: "Iconfont",
@@ -337,7 +339,7 @@ const data = [
             title: "Fontawesome",
             icon: "./icons/fontawesome.ico",
             href: "http://www.fontawesome.com.cn/icons-ui/",
-            description: "常用字体库"
+            description: "Fontawesome The Icons"
           },
           {
             title: "Shields",
@@ -368,7 +370,7 @@ const data = [
             title: "regex101",
             icon: "./icons/regex101.ico",
             href: "https://regex101.com",
-            description: "regex101"
+            description: "Regular Expressions 101"
           },
           {
             title: "Regulex",
@@ -381,7 +383,8 @@ const data = [
             icon:
               "https://c.staticblitz.com/assets/icons/icon-144x144-087fc0a60e0073134b9d301ac02a1d2a547db3428c0c010818aa431fa85fffd8.png",
             href: "https://stackblitz.com/",
-            description: "Stackblitz"
+            description:
+              "StacThe same editing experience. Now in your browser.kblitz"
           },
           {
             title: "JSRUN.NET",
@@ -474,11 +477,11 @@ const data = [
           },
           {
             title: "阿里云盘",
-            icon:
-              "https://g.alicdn.com/aliyun-drive-fe/h5-main/0.0.5/favicon.ico",
-            href: "https://www.aliyundrive.com/drive",
-            description: "你的数字世界"
-          },
+            icon: "./icons/aliyundrive.ico",
+            href: "https://aliyundrive.com/",
+            description:
+              "阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘，你可以在这里存储、管理和探索内容，尽情打造丰富的数字世界。"
+          }
           {
             title: "草料二维码生成",
             icon: "https://static.clewm.net/static/images/favicon.ico",
