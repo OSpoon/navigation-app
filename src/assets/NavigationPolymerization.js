@@ -38,8 +38,7 @@ const data = [
       },
       {
         title: "阿里云盘",
-        icon:
-          "https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico",
+        icon: "./icons/aliyundrive.ico",
         href: "https://aliyundrive.com/",
         description:
           "阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘，你可以在这里存储、管理和探索内容，尽情打造丰富的数字世界。"

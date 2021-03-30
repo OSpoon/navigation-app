@@ -10,7 +10,10 @@
       rel="noopener noreferrer"
       href="http://www.beian.miit.gov.cn/"
       >晋ICP备15003329号-3</a
-    >&nbsp; 微信 <a>zxin0073</a>
+    >&nbsp; 微信 <a>zxin0073</a> <br />&nbsp;旧版
+    <a target="_blank" rel="noopener noreferrer" href="http://old.it200.cn/"
+      >Old.IT200.cn</a
+    >
   </a-layout-footer>
 </template>
 
