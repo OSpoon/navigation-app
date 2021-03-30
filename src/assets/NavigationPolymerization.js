@@ -20,26 +20,29 @@ const data = [
         title: "Processon",
         icon: "https://www.processon.com/favicon.ico",
         href: "https://www.processon.com/",
-        description: "免费在线作图、实时协作"
+        description:
+          "免费在线作图、实时协作 支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等"
       },
       {
         title: "regex101",
-        icon: "https://regex101.com/static/assets/favicon.ico",
+        icon: "./icons/regex101.ico",
         href: "https://regex101.com",
-        description: "regex101"
+        description: "Regular Expressions 101"
       },
       {
         title: "lodashjs",
         icon: "https://www.lodashjs.com/img/favicon.ico",
         href: "https://www.lodashjs.com/",
-        description: "lodashjs"
+        description:
+          "Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。"
       },
       {
         title: "阿里云盘",
         icon:
           "https://gw.alicdn.com/imgextra/i3/O1CN01aj9rdD1GS0E8io11t_!!6000000000620-73-tps-16-16.ico",
         href: "https://aliyundrive.com/",
-        description: "你的数字世界"
+        description:
+          "阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘，你可以在这里存储、管理和探索内容，尽情打造丰富的数字世界。"
       }
     ]
   },
@@ -129,7 +132,7 @@ const data = [
             title: "Eggjs",
             icon: "https://eggjs.org/images/favicon.png",
             href: "https://eggjs.org/zh-cn/",
-            description: "eggjs"
+            description: "为企业级框架和应用而生"
           },
           {
             title: "webpackjs",
@@ -289,7 +292,8 @@ const data = [
             title: "lodashjs",
             icon: "https://www.lodashjs.com/img/favicon.ico",
             href: "https://www.lodashjs.com/",
-            description: "lodashjs"
+            description:
+              "Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。"
           },
           {
             title: "NpmJs",
@@ -363,7 +367,7 @@ const data = [
           },
           {
             title: "regex101",
-            icon: "https://regex101.com/static/assets/favicon.ico",
+            icon: "./icons/regex101.ico",
             href: "https://regex101.com",
             description: "regex101"
           },
@@ -385,6 +389,12 @@ const data = [
             icon: "http://jsrun.net/res/favicon.ico",
             href: "http://jsrun.net/",
             description: "JSRUN可以用手机写代码的JS在线编辑器网站"
+          },
+          {
+            title: "Loupe",
+            icon: "./icons/latentflip.ico",
+            href: "http://latentflip.com/loupe/",
+            description: "代码执行的可视化工具"
           },
           {
             title: "Toptal",
@@ -594,20 +604,6 @@ const data = [
             icon: "https://assets.faceid.com/static/assets/favicon.ico",
             href: "https://faceid.com/",
             description: "旷世FaceId后台"
-          },
-          {
-            title: "vivo云手机",
-            icon: "https://id.vivo.com.cn/favicon.ico?t=1",
-            href: "https://id.vivo.com.cn/",
-            description: "vivo云手机"
-          },
-          {
-            title: "华为云手机",
-            icon:
-              "https://id1.cloud.huawei.com/CAS/up/idmw_rss_61/logos/icons/huawei.ico",
-            href:
-              "https://deveco.huawei.com/console/testservice/remote?project=-1&packageName=com.huawei.deveco.demo",
-            description: "华为云手机"
           },
           {
             title: "betaqr应用托管",

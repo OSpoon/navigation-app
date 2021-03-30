@@ -47,6 +47,7 @@ export default {
 
 <style>
 #card-content .itemBox {
+  /* height: 90px; */
   margin: 5px 12px;
   padding: 8px;
   background: #fff;
@@ -78,7 +79,7 @@ export default {
   line-height: 18px;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   /* 元素溢出内容  隐藏 */
   overflow: hidden;
@@ -90,5 +91,6 @@ export default {
 #card-content .ant-card-bordered {
   border: 1px solid #e8e8e8;
   border-radius: 8px;
+  height: 100%;
 }
 </style>
