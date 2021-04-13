@@ -39,11 +39,10 @@ const data = [
           "Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。"
       },
       {
-        title: "阿里云盘",
-        icon: "./icons/aliyundrive.ico",
-        href: "https://aliyundrive.com/",
-        description:
-          "阿里云盘是一款速度快、不打扰、够安全、易于分享的网盘，你可以在这里存储、管理和探索内容，尽情打造丰富的数字世界。"
+        title: "力扣",
+        icon: "https://leetcode-cn.com/favicon.ico",
+        href: "https://leetcode-cn.com/",
+        description: "力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台"
       }
     ]
   },
