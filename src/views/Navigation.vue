@@ -5,7 +5,8 @@
 </template>
 
 <script>
-import navList from "@/assets/NavigationPolymerization.js";
+import NavigationInfo from "navigation-info";
+
 // @ is an alias to /src
 import Layout from "@/components/Layout.vue";
 
@@ -16,7 +17,7 @@ export default {
   },
   data() {
     return {
-      list: navList
+      list: NavigationInfo
     };
   }
 };

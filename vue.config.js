@@ -1,3 +1,8 @@
 module.exports = {
-  publicPath: "./"
+  publicPath: "./",
+  configureWebpack: config => {
+    config.externals = {
+      "navigation-info": "NavigationInfo"
+    };
+  }
 };
