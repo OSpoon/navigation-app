@@ -359,6 +359,12 @@
               icon: "./icons/shields.ico",
               href: "https://shields.io/category/build",
               description: "GitHub徽章"
+            },
+            {
+              title: "Deepl",
+              icon: "https://www.deepl.com/img/favicon/favicon_32.png",
+              href: "https://www.deepl.com/translator",
+              description: "Deepl翻译器"
             }
           ]
         },
