@@ -1,0 +1,43 @@
+# workflow名称
+name: Build and Deploy
+# 触发条件:master分支接收到push指令后开始
+on:
+  push:
+    branches:
+      - master
+# 执行任务
+jobs:
+  build-and-deploy:
+    name: Build and Deploy
+    # runs-on 虚拟机环境
+    runs-on: ubuntu-latest
+    # 任务步骤
+    steps:
+      # 获取源码
+      - name: 1. 拉取代码 🚀
+        # 使⽤action库 actions/checkout获取源码
+        uses: actions/checkout@master
+      # 安装Node12.18.3
+      - name: 2. 安装Node 🚀
+        # 使⽤action库 actions/setup-node安装node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.18.3
+      # 安装依赖
+      - name: 3. 安装依赖 🚀
+        run: npm install yarn && yarn install
+      # 编译项目
+      - name: 4. 编译项目 🚀
+        run: yarn run build:prod
+      - name: 5. 部署 🚀
+        # 使用JamesIves库 JamesIves/github-pages-deploy-action@3.7.1
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          # GitHub 密钥
+          GITHUB_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          # 待发布到的分支
+          BRANCH: gh-pages
+          # 待部署文件夹
+          FOLDER: dist
+          # 自动删除已部署的文件
+          CLEAN: true
