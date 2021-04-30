@@ -31,11 +31,10 @@
           description: "稳定、快速、免费的前端开源项目 CDN 加速服务"
         },
         {
-          title: "Processon",
-          icon: "https://www.processon.com/favicon.ico",
-          href: "https://www.processon.com/",
-          description:
-            "免费在线作图、实时协作 支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等"
+          title: "小鑫笔记",
+          icon: "https://it200.cn/img/logo.b96656d2.jpg",
+          href: "https://ospoon.github.io/",
+          description: "小鑫笔记在线阅读"
         },
         {
           title: "regex101",
