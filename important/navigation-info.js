@@ -473,6 +473,12 @@
               icon: "./icons/ibootstrap.ico",
               href: "http://www.ibootstrap.cn/",
               description: "拖拽生成bootstrap页面"
+            },
+            {
+              title: "AST Explorer",
+              icon: "https://astexplorer.net/favicon.png",
+              href: "https://astexplorer.net/",
+              description: "抽象语法树"
             }
           ]
         },
