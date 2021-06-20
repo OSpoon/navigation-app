@@ -26,6 +26,11 @@
                   {{ citem.description }}
                 </p>
               </div>
+              <div class="operating">
+                <a-button type="link" size="small" @click="open(citem.href)">
+                  查看
+                </a-button>
+              </div>
             </a-card>
           </div>
         </a-col>
@@ -41,18 +46,27 @@ export default {
       type: Object,
       require: true
     }
+  },
+  methods: {
+    open(url) {
+      window.open(url);
+    }
   }
 };
 </script>
 
 <style>
 #card-content .itemBox {
-  /* height: 90px; */
+  height: 120px;
   margin: 5px 12px;
   padding: 8px;
   background: #fff;
 }
-
+#card-content .itemBox .operating {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}
 #card-content .itemImg {
   width: 40px;
   height: 40px;
@@ -75,18 +89,17 @@ export default {
 }
 
 #card-content .itemTextBox p {
-  margin: 0;
-  line-height: 18px;
-  text-overflow: ellipsis;
+  /* margin: 0;
+  line-height: 18px; */
   display: -webkit-box;
-  -webkit-line-clamp: 1;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   /* 元素溢出内容  隐藏 */
   overflow: hidden;
   /* 设置文本不折行 */
-  white-space: nowrap;
+  /* white-space: nowrap; */
   /* 元素溢出打点 */
-  text-overflow: ellipsis;
+  /* text-overflow: ellipsis; */
 }
 #card-content .ant-card-bordered {
   border: 1px solid #e8e8e8;
