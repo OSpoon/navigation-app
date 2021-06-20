@@ -127,6 +127,14 @@
               description: "用于构建用户界面的 JavaScript 库"
             },
             {
+              title: "Electron",
+              icon:
+                "https://www.electronjs.org/images/favicon.b7a59262df48d6563400baf5671da548.ico",
+              href: "https://www.electronjs.org/",
+              description:
+                "使用 JavaScript，HTML 和 CSS 构建跨平台的桌面应用程序"
+            },
+            {
               title: "Angular",
               icon: "https://angular.cn/assets/images/favicons/favicon.ico",
               href: "https://angular.cn/",
@@ -150,6 +158,13 @@
               icon: "https://www.webpackjs.com/assets/favicon.ico",
               href: "https://www.webpackjs.com/",
               description: "打包所有的 资源"
+            },
+            {
+              title: "rollupjs",
+              icon: "https://www.rollupjs.com/img/favicon.png",
+              href: "https://www.rollupjs.com/",
+              description:
+                "Rollup 是一个 JavaScript 模块打包器，可以将小块代码编译成大块复杂的代码，例如 library 或应用程序。"
             }
           ]
         },
@@ -364,6 +379,12 @@
               icon: "https://www.deepl.com/img/favicon/favicon_32.png",
               href: "https://www.deepl.com/translator",
               description: "Deepl翻译器"
+            },
+            {
+              title: "UIGradients",
+              icon: "https://uigradients.com/static/images/favicon-32x32.png",
+              href: "https://uigradients.com/#Margo",
+              description: "渐变生成器"
             }
           ]
         },
