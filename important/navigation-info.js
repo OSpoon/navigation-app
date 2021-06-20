@@ -141,17 +141,29 @@
               description: "一套框架，多种平台；移动端 & 桌面端"
             },
             {
-              title: "Angular Material",
-              icon:
-                "https://material.angular.cn/assets/img/favicons/favicon.ico?v=8.2.3",
-              href: "https://material.angular.cn/",
-              description: "Material Design 组件库 for Angular"
+              title: "Express",
+              icon: "https://www.expressjs.com.cn/images/favicon.png",
+              href: "https://www.expressjs.com.cn/",
+              description: "基于 Node.js 平台，快速、开放、极简的 Web 开发框架"
             },
+            {
+              title: "Koa",
+              icon: "./icons/koa.ico",
+              href: "https://koa.bootcss.com/",
+              description: "基于 Nodejs 平台的下一代 web 开发框架"
+            },
+
             {
               title: "Eggjs",
               icon: "https://eggjs.org/images/favicon.png",
               href: "https://eggjs.org/zh-cn/",
               description: "为企业级框架和应用而生"
+            },
+            {
+              title: "Nuxtjs",
+              icon: "https://zh.nuxtjs.org/favicon.ico",
+              href: "https://zh.nuxtjs.org/",
+              description: "易于使用的 Vue 框架"
             },
             {
               title: "webpackjs",
@@ -207,6 +219,13 @@
               description: "一套京东风格的轻量级移动端Vue组件库"
             },
             {
+              title: "Angular Material",
+              icon:
+                "https://material.angular.cn/assets/img/favicons/favicon.ico?v=8.2.3",
+              href: "https://material.angular.cn/",
+              description: "Material Design 组件库 for Angular"
+            },
+            {
               title: "mint-ui",
               icon: "./icons/mint.ico",
               href: "http://mint-ui.github.io/docs/#/",
@@ -239,12 +258,7 @@
               href: "https://panjiachen.gitee.io/vue-element-admin-site/zh/",
               description: "vue-element-admin"
             },
-            {
-              title: "nuxtjs",
-              icon: "https://zh.nuxtjs.org/favicon.ico",
-              href: "https://zh.nuxtjs.org/",
-              description: "易于使用的 Vue 框架"
-            },
+
             {
               title: "React Router",
               icon: "https://reactrouter.com/favicon-32x32.png",
@@ -252,18 +266,7 @@
               description:
                 "React Router is a collection of navigational components that compose declaratively with your application."
             },
-            {
-              title: "Koa",
-              icon: "./icons/koa.ico",
-              href: "https://koa.bootcss.com/",
-              description: "基于 Nodejs 平台的下一代 web 开发框架"
-            },
-            {
-              title: "Express",
-              icon: "https://www.expressjs.com.cn/images/favicon.png",
-              href: "https://www.expressjs.com.cn/",
-              description: "基于 Node.js 平台，快速、开放、极简的 Web 开发框架"
-            },
+
             {
               title: "Echarts",
               icon:
@@ -348,6 +351,80 @@
               href: "https://developer.mozilla.org/zh-CN/docs/Web",
               description: "Web 开发技术 面向 Web 开发者的文档"
             },
+
+            {
+              title: "Shields",
+              icon: "./icons/shields.ico",
+              href: "https://shields.io/category/build",
+              description: "GitHub徽章"
+            },
+            {
+              title: "Deepl",
+              icon: "https://www.deepl.com/img/favicon/favicon_32.png",
+              href: "https://www.deepl.com/translator",
+              description: "Deepl翻译器"
+            },
+            {
+              title: "UIGradients",
+              icon: "https://uigradients.com/static/images/favicon-32x32.png",
+              href: "https://uigradients.com/#Margo",
+              description: "渐变生成器"
+            },
+            {
+              title: "AST Explorer",
+              icon: "https://astexplorer.net/favicon.png",
+              href: "https://astexplorer.net/",
+              description: "抽象语法树"
+            }
+          ]
+        },
+        {
+          name: "设计相关",
+          type: "ca7da9ca-8201-4259-8342-38ee1cb18fd5",
+          icon: "like",
+          list: [
+            {
+              title: "蓝湖",
+              icon: "https://cdn.lanhuapp.com/web/static/favicon.ico",
+              href: "https://lanhuapp.com/",
+              description: "高效的产品设计协作平台"
+            },
+            {
+              title: "稿定-设计",
+              icon: "https://www.gaoding.com/favicon.ico",
+              href: "https://www.gaoding.com/templates/fcc1612548-fc1612547",
+              description: "首图图片模板在线设计制作"
+            },
+            {
+              title: "稿定-PS",
+              icon: "https://ps.gaoding.com/favicon.ico",
+              href: "https://ps.gaoding.com/#/",
+              description: "稿定 在线PS"
+            },
+            {
+              title: "生成ICO图标",
+              icon: "http://www.ico51.cn/favicon.ico",
+              href: "http://www.ico51.cn/",
+              description: "在线生成透明ICO图标"
+            },
+            {
+              title: "创客贴",
+              icon: "https://www.chuangkit.com/favicon.ico",
+              href: "https://www.chuangkit.com/",
+              description: "让设计触手可得"
+            },
+            {
+              title: "花瓣-设计",
+              icon: "https://huaban.com/favicon.ico",
+              href: "https://huaban.com/",
+              description: "花瓣，陪你做生活的设计师"
+            },
+            {
+              title: "LOADING.IO",
+              icon: "./icons/loading.ico",
+              href: "https://loading.io/",
+              description: "Animation Made Easy"
+            },
             {
               title: "Iconfont",
               icon:
@@ -367,24 +444,6 @@
               icon: "./icons/fontawesome.ico",
               href: "http://www.fontawesome.com.cn/icons-ui/",
               description: "Fontawesome The Icons"
-            },
-            {
-              title: "Shields",
-              icon: "./icons/shields.ico",
-              href: "https://shields.io/category/build",
-              description: "GitHub徽章"
-            },
-            {
-              title: "Deepl",
-              icon: "https://www.deepl.com/img/favicon/favicon_32.png",
-              href: "https://www.deepl.com/translator",
-              description: "Deepl翻译器"
-            },
-            {
-              title: "UIGradients",
-              icon: "https://uigradients.com/static/images/favicon-32x32.png",
-              href: "https://uigradients.com/#Margo",
-              description: "渐变生成器"
             }
           ]
         },
@@ -457,12 +516,7 @@
               description:
                 "GitHub 文件 , Releases , archive 以及 raw.githubusercontent.com 文件加速下载服务."
             },
-            {
-              title: "蓝湖",
-              icon: "https://cdn.lanhuapp.com/web/static/favicon.ico",
-              href: "https://lanhuapp.com/",
-              description: "高效的产品设计协作平台"
-            },
+
             {
               title: "腾讯企业邮箱",
               icon: "//exmail.qq.com/exmail_logo.ico",
@@ -494,12 +548,6 @@
               icon: "./icons/ibootstrap.ico",
               href: "http://www.ibootstrap.cn/",
               description: "拖拽生成bootstrap页面"
-            },
-            {
-              title: "AST Explorer",
-              icon: "https://astexplorer.net/favicon.png",
-              href: "https://astexplorer.net/",
-              description: "抽象语法树"
             }
           ]
         },
@@ -534,42 +582,7 @@
               href: "https://cli.im/url",
               description: "草料二维码生成"
             },
-            {
-              title: "稿定-设计",
-              icon: "https://www.gaoding.com/favicon.ico",
-              href: "https://www.gaoding.com/templates/fcc1612548-fc1612547",
-              description: "首图图片模板在线设计制作"
-            },
-            {
-              title: "稿定-PS",
-              icon: "https://ps.gaoding.com/favicon.ico",
-              href: "https://ps.gaoding.com/#/",
-              description: "稿定 在线PS"
-            },
-            {
-              title: "生成ICO图标",
-              icon: "http://www.ico51.cn/favicon.ico",
-              href: "http://www.ico51.cn/",
-              description: "在线生成透明ICO图标"
-            },
-            {
-              title: "创客贴",
-              icon: "https://www.chuangkit.com/favicon.ico",
-              href: "https://www.chuangkit.com/",
-              description: "让设计触手可得"
-            },
-            {
-              title: "花瓣-设计",
-              icon: "https://huaban.com/favicon.ico",
-              href: "https://huaban.com/",
-              description: "花瓣，陪你做生活的设计师"
-            },
-            {
-              title: "LOADING.IO",
-              icon: "./icons/loading.ico",
-              href: "https://loading.io/",
-              description: "Animation Made Easy"
-            },
+
             {
               title: "腾讯网址安全中心",
               icon: "./icons/urlsec.ico",
@@ -831,39 +844,39 @@
               description: "flask使用flask-socketio 启动服务方式"
             }
           ]
-        },
-        {
-          name: "振利软件",
-          type: "b108f443-6831-4fa4-8e1f-2b9967976acf",
-          icon: "desktop",
-          list: [
-            {
-              title: "工时系统",
-              description: "每日一填,工资满满",
-              icon: "http://it200.cn/images/logo/default.png",
-              href: "http://app.n22.com.cn/app/"
-            },
-            {
-              title: "Git仓库",
-              description: "勤推送,勤拉取",
-              icon:
-                "http://git.n22.com.cn:8089/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png",
-              href: "http://git.n22.com.cn:8089/"
-            },
-            {
-              title: "SVN仓库",
-              description: "勤推送,勤拉取",
-              icon: "./icons/svn.ico",
-              href: "https://n22beijing.imwork.net:10480/!/#"
-            },
-            {
-              title: "阿亮UI库",
-              description: "新框架通用UI库",
-              icon: "http://vue-mobile.gitee.io/static/image/al.svg",
-              href: "http://vue-mobile.gitee.io/al-mobile/#/zh-CN/home"
-            }
-          ]
         }
+        // {
+        //   name: "振利软件",
+        //   type: "b108f443-6831-4fa4-8e1f-2b9967976acf",
+        //   icon: "desktop",
+        //   list: [
+        //     {
+        //       title: "工时系统",
+        //       description: "每日一填,工资满满",
+        //       icon: "http://it200.cn/images/logo/default.png",
+        //       href: "http://app.n22.com.cn/app/"
+        //     },
+        //     {
+        //       title: "Git仓库",
+        //       description: "勤推送,勤拉取",
+        //       icon:
+        //         "http://git.n22.com.cn:8089/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png",
+        //       href: "http://git.n22.com.cn:8089/"
+        //     },
+        //     {
+        //       title: "SVN仓库",
+        //       description: "勤推送,勤拉取",
+        //       icon: "./icons/svn.ico",
+        //       href: "https://n22beijing.imwork.net:10480/!/#"
+        //     },
+        //     {
+        //       title: "阿亮UI库",
+        //       description: "新框架通用UI库",
+        //       icon: "http://vue-mobile.gitee.io/static/image/al.svg",
+        //       href: "http://vue-mobile.gitee.io/al-mobile/#/zh-CN/home"
+        //     }
+        //   ]
+        // }
       ]
     }
   ];
