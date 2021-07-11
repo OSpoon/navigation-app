@@ -34,7 +34,8 @@ export default {
 
 <style>
 .bd-search {
-  width: 60%;
+  width: 50%;
+  max-width: 600px;
   margin: 10px auto;
 }
 </style>
