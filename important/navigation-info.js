@@ -54,6 +54,45 @@
           icon: "https://leetcode-cn.com/favicon.ico",
           href: "https://leetcode-cn.com/",
           description: "力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台"
+        },
+        {
+          title: "TypeScript",
+          description: "TypeScript is JavaScript with syntax for types.",
+          icon: "https://www.tslang.cn/assets/images/icons/favicon.ico",
+          href: "https://www.typescriptlang.org/"
+        },
+        {
+          title: "CodeSandbox",
+          description: "Code Sand box",
+          icon: "https://codesandbox.io/favicon.ico",
+          href: "https://codesandbox.io/"
+        },
+        {
+          title: "Vue SFC Playground",
+          description: "Vue SFC Playground",
+          icon: "https://sfc.vuejs.org/logo.svg",
+          href: "https://sfc.vuejs.org/"
+        },
+        {
+          title: "{JSON} Placeholder",
+          description:
+            "Free fake API for testing and prototyping. Powered by JSON Server + LowDB",
+          icon: "https://jsonplaceholder.typicode.com/favicon.ico",
+          href: "https://jsonplaceholder.typicode.com/"
+        },
+        {
+          title: "UNPKG",
+          description:
+            "unpkg is a fast, global content delivery network for everything on npm. ",
+          icon: "https://unpkg.com/favicon.ico",
+          href: "https://unpkg.com/"
+        },
+        {
+          title: "ECMAScript",
+          icon:
+            "https://img1.baidu.com/it/u=393673481,1181948800&fm=26&fmt=auto",
+          href: "http://es.xiecheng.live/",
+          description: "ECMAScript2015~2020语法全解析"
         }
       ]
     },
@@ -76,7 +115,8 @@
         },
         {
           title: "掘金社区",
-          icon: "https://b-gold-cdn.xitu.io/favicons/v2/favicon.ico",
+          icon:
+            "https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/favicon-32x32.png",
           href: "https://juejin.im/timeline",
           description: "一个帮助开发者成长的社区"
         },
@@ -103,7 +143,6 @@
         }
       ]
     },
-
     {
       name: "热点关注",
       type: "23747da2-4b49-4804-9f19-3b521f7449bc",
@@ -143,7 +182,8 @@
             },
             {
               title: "NutUI",
-              icon: "https://nutui.jd.com/favicon.ico",
+              icon:
+                "https://img14.360buyimg.com/imagetools/jfs/t1/167902/2/8762/791358/603742d7E9b4275e3/e09d8f9a8bf4c0ef.png",
               href: "https://nutui.jd.com/#/index",
               description: "一套京东风格的轻量级移动端Vue组件库"
             },
@@ -260,8 +300,7 @@
             },
             {
               title: "Create React App",
-              icon:
-                "http://www.html.cn/create-react-app/img/favicon/favicon.ico",
+              icon: "https://www.html.cn/create-react-app/img/logo.svg",
               href: "http://www.html.cn/create-react-app/",
               description: "Vue.js 开发的标准工具Create React App 中文文档"
             },
@@ -345,7 +384,8 @@
         },
         {
           title: "ECMAScript",
-          icon: "http://it200.cn/images/logo/default.png",
+          icon:
+            "https://img1.baidu.com/it/u=393673481,1181948800&fm=26&fmt=auto",
           href: "http://es.xiecheng.live/",
           description: "ECMAScript2015~2020语法全解析"
         },
@@ -491,7 +531,7 @@
             },
             {
               title: "生成ICO图标",
-              icon: "http://www.ico51.cn/favicon.ico",
+              icon: "http://it200.cn/images/logo/default.png",
               href: "http://www.ico51.cn/",
               description: "在线生成透明ICO图标"
             },
@@ -632,7 +672,7 @@
             {
               title: "Toptal",
               icon:
-                "https://assets.toptal.io/assets/front/static/favicons/favicon_ca7136.png",
+                "https://frontier-assets.toptal.com/ec99a6ba6efa2bbb78f99a929026b33d.svg",
               href: "https://www.toptal.com/developers/css/sprite-generator",
               description: "CSS Sprites Generator"
             },
@@ -740,8 +780,48 @@
               icon: "http://it200.cn/images/logo/default.png",
               href: "chrome://inspect/#devices",
               description: "Chrome DevTools"
+            },
+            {
+              title: "Linux命令大全(手册)",
+              icon:
+                "https://www.linuxcool.com/wp-content/uploads/2019/03/cropped-redhat-32x32.png",
+              href: "https://www.linuxcool.com/",
+              description: "Linux命令大全(手册)"
             }
           ]
+        }
+      ]
+    },
+    {
+      name: "云测平台",
+      type: "68f4dd33-7c1b-4852-8364-48bae29ee200",
+      icon: "read",
+      list: [
+        {
+          title: "VIVO云测",
+          icon: "https://vcl.vivo.com.cn/static/resource/img/favicon.ico",
+          href: "https://vcl.vivo.com.cn/#/home/index",
+          description: "VIVO 开发者云测平台"
+        },
+        {
+          title: "小米云测",
+          icon: "https://testit.miui.com/favicon.ico",
+          href: "https://testit.miui.com/",
+          description: "小米云测平台"
+        },
+        {
+          title: "华为开发者联盟",
+          icon:
+            "https://developer.huawei.com/consumer/cn/devunion/openPlatform/refactor/favicon.ico",
+          href:
+            "https://developer.huawei.com/consumer/cn/console#/serviceCards/",
+          description: "华为开发者联盟"
+        },
+        {
+          title: "Bugly",
+          icon: "https://bugly.qq.com/v2/images/bugly_b.ico",
+          href: "https://bugly.qq.com/v2/workbench/apps",
+          description: "Bugly"
         }
       ]
     },
@@ -752,7 +832,7 @@
       list: [
         {
           title: "自助服务系统",
-          icon: "https://zikao.hneao.cn/favicon.ico",
+          icon: "https://zikao.hneao.cn/net/image/login_ico2.png",
           href: "https://zikao.hneao.cn/net/netExamineeAction.do",
           description: "湖南省高等教育自学考试自助服务系统"
         },
