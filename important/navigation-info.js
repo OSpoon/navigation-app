@@ -17,32 +17,12 @@
       icon: "dashboard",
       list: [
         {
-          title: "极客时间",
+          title: "语雀",
           description:
-            "后端,架构,前端,移动,人工智能,大数据,产品,运营,运维,测试,极客时间,极客邦",
+            "十万阿里人都在用的笔记与文档知识库，面向企业、组织或个人，提供全新的体系化知识管理，打造轻松流畅的工作协同。金融级数据安全、丰富的应用场景、强大的知识创作与管理，助力企业、个人轻松拥有云端知识库",
           icon:
-            "https://static001.geekbang.org/static/time/icon/favicon-32x32.jpg",
-          href: "https://time.geekbang.org/"
-        },
-        {
-          title: "哔哩哔哩",
-          description:
-            "bilibili是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。",
-          icon: "https://www.bilibili.com/favicon.ico?v=1",
-          href: "https://www.bilibili.com/"
-        },
-        {
-          title: "开课吧",
-          description: "数字化人才在线教育平台",
-          icon: "https://img.kaikeba.com/kkb_portal_icon.ico",
-          href: "https://www.kaikeba.com/"
-        },
-
-        {
-          title: "力扣",
-          icon: "https://leetcode-cn.com/favicon.ico",
-          href: "https://leetcode-cn.com/",
-          description: "力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台"
+            "https://gw.alipayobjects.com/zos/rmsportal/UTjFYEzMSYVwzxIGVhMu.png",
+          href: "https://www.yuque.com/dashboard"
         },
         {
           title: "Processon",
@@ -51,46 +31,47 @@
           description: "免费在线作图、实时协作"
         },
         {
-          title: "语雀",
-          description:
-            "十万阿里人都在用的笔记与文档知识库，面向企业、组织或个人，提供全新的体系化知识管理，打造轻松流畅的工作协同。金融级数据安全、丰富的应用场景、强大的知识创作与管理，助力企业、个人轻松拥有云端知识库",
+          title: "MD2富文本",
           icon:
-            "https://gw.alipayobjects.com/zos/rmsportal/UTjFYEzMSYVwzxIGVhMu.png",
-          href: "https://www.yuque.com/dashboard"
-        }
-      ]
-    },
-    {
-      name: "在线IDE",
-      type: "9a38a75f-a8c9-43b2-a8aa-ad6f8306cea8",
-      icon: "heart",
-      list: [
+            "https://gitee.com/yanglbme/resource/raw/master/doocs-md/favicon.png",
+          href: "https://doocs.github.io/md/",
+          description:
+            "Wechat Markdown Editor | 一款高度简洁的微信 Markdown 编辑器"
+        },
+        {
+          title: "Excalidraw",
+          icon: "https://excalidraw.com/logo-180x180.png",
+          href: "https://excalidraw.com/",
+          description:
+            "Excalidraw is a virtual collaborative whiteboard tool that lets you easily sketch diagrams that have a hand-drawn feel to them."
+        },
+        {
+          title: "Undraw",
+          icon: "https://undraw.co/favicon.ico",
+          href: "https://undraw.co/illustrations",
+          description:
+            "Browse to find the images that fit your needs and click to download. Use the on-the-fly color image generation to match your brand identity."
+        },
         {
           title: "CodeSandbox",
           description: "Code Sand box",
           icon: "https://codesandbox.io/favicon.ico",
           href: "https://codesandbox.io/"
         },
-        {
-          title: "Vue SFC Playground",
-          description: "Vue SFC Playground",
-          icon: "https://sfc.vuejs.org/logo.svg",
-          href: "https://sfc.vuejs.org/"
-        },
-        {
-          title: "Stackblitz",
-          icon:
-            "https://c.staticblitz.com/assets/icons/icon-144x144-087fc0a60e0073134b9d301ac02a1d2a547db3428c0c010818aa431fa85fffd8.png",
-          href: "https://stackblitz.com/",
-          description:
-            "StacThe same editing experience. Now in your browser.kblitz"
-        },
-        {
-          title: "JSRUN.NET",
-          icon: "http://jsrun.net/res/favicon.ico",
-          href: "http://jsrun.net/",
-          description: "JSRUN可以用手机写代码的JS在线编辑器网站"
-        },
+        // {
+        //   title: "Stackblitz",
+        //   icon:
+        //     "https://c.staticblitz.com/assets/icons/icon-144x144-087fc0a60e0073134b9d301ac02a1d2a547db3428c0c010818aa431fa85fffd8.png",
+        //   href: "https://stackblitz.com/",
+        //   description:
+        //     "StacThe same editing experience. Now in your browser.kblitz"
+        // },
+        // {
+        //   title: "JSRUN.NET",
+        //   icon: "http://jsrun.net/res/favicon.ico",
+        //   href: "http://jsrun.net/",
+        //   description: "JSRUN可以用手机写代码的JS在线编辑器网站"
+        // },
         {
           title: "regex101",
           icon: "./icons/regex101.ico",
@@ -102,9 +83,67 @@
           icon: "https://jex.im/favicon.ico",
           href: "https://jex.im/regulex/",
           description: "JavaScript Regular Expression Visualizer."
+        },
+        {
+          title: "力扣",
+          icon: "https://leetcode-cn.com/favicon.ico",
+          href: "https://leetcode-cn.com/",
+          description: "力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台"
+        },
+        {
+          title: "Canva可画",
+          description: "搜索你的或Canva可画的设计内容",
+          icon: "https://static.canva.cn/static/images/favicon-1.ico",
+          href: "https://www.canva.cn/"
+        },
+        {
+          title: "哔哩哔哩",
+          description:
+            "bilibili是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。",
+          icon: "https://www.bilibili.com/favicon.ico?v=1",
+          href: "https://www.bilibili.com/"
         }
       ]
     },
+    // {
+    //   name: "在线IDE",
+    //   type: "9a38a75f-a8c9-43b2-a8aa-ad6f8306cea8",
+    //   icon: "heart",
+    //   list: [
+    //     {
+    //       title: "CodeSandbox",
+    //       description: "Code Sand box",
+    //       icon: "https://codesandbox.io/favicon.ico",
+    //       href: "https://codesandbox.io/"
+    //     },
+    //     {
+    //       title: "Stackblitz",
+    //       icon:
+    //         "https://c.staticblitz.com/assets/icons/icon-144x144-087fc0a60e0073134b9d301ac02a1d2a547db3428c0c010818aa431fa85fffd8.png",
+    //       href: "https://stackblitz.com/",
+    //       description:
+    //         "StacThe same editing experience. Now in your browser.kblitz"
+    //     },
+    //     {
+    //       title: "JSRUN.NET",
+    //       icon: "http://jsrun.net/res/favicon.ico",
+    //       href: "http://jsrun.net/",
+    //       description: "JSRUN可以用手机写代码的JS在线编辑器网站"
+    //     },
+    //     {
+    //       title: "regex101",
+    //       icon: "./icons/regex101.ico",
+    //       href: "https://regex101.com",
+    //       description: "Regular Expressions 101"
+    //     },
+    //     {
+    //       title: "Regulex",
+    //       icon: "https://jex.im/favicon.ico",
+    //       href: "https://jex.im/regulex/",
+    //       description: "JavaScript Regular Expression Visualizer."
+    //     }
+    //   ]
+    // },
     {
       name: "交流区",
       type: "61a915ce-0c77-4f30-8121-90c813496d36",
@@ -168,6 +207,12 @@
           icon: "https://cn.vuejs.org/images/icons/favicon-32x32.png",
           href: "https://v3.cn.vuejs.org/",
           description: "渐进式 JavaScript 框架"
+        },
+        {
+          title: "MicroApp",
+          icon: "https://micro-zoe.github.io/micro-app/favicon.ico",
+          href: "https://micro-zoe.github.io/micro-app/",
+          description: "一款轻量、高效、功能强大的微前端框架"
         },
         {
           title: "React",
@@ -255,7 +300,7 @@
         },
         {
           title: "Eggjs",
-          icon: "https://eggjs.org/images/favicon.png",
+          icon: "https://www.eggjs.org/favicon.png",
           href: "https://eggjs.org/zh-cn/",
           description: "为企业级框架和应用而生"
         },
@@ -417,12 +462,6 @@
           description: "Markdown Nice"
         },
         {
-          title: "JSON To TypeScript",
-          icon: "https://www.nginxedit.cn/assets/img/favicon.png",
-          href: "http://www.json2ts.com/",
-          description: "generate TypeScript interfaces from JSON"
-        },
-        {
           title: "{JSON} Placeholder",
           description:
             "Free fake API for testing and prototyping. Powered by JSON Server + LowDB",
@@ -447,12 +486,6 @@
           href: "https://ghproxy.com",
           description:
             "GitHub 文件 , Releases , archive 以及 raw.githubusercontent.com 文件加速下载服务."
-        },
-        {
-          title: "Nginx在线配置",
-          icon: "https://www.nginxedit.cn/assets/img/favicon.png",
-          href: "https://www.nginxedit.cn/",
-          description: "配置高性能，安全和稳定的NGINX服务器的最简单方法。"
         }
       ]
     },
@@ -527,7 +560,7 @@
         },
         {
           title: "Postcss",
-          icon: "https://www.postcss.com.cn/favicon.8a995d15.ico",
+          icon: "https://www.postcss.com.cn/favicon.61a31adb.ico",
           href: "https://www.postcss.com.cn/",
           description: "是一个用 JavaScript 工具和插件转换 CSS 代码的工具"
         },
