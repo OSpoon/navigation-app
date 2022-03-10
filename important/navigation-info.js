@@ -102,6 +102,12 @@
             "bilibili是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。",
           icon: "https://www.bilibili.com/favicon.ico?v=1",
           href: "https://www.bilibili.com/"
+        },
+        {
+          title: "小码短链",
+          description: "简单易用的渠道短链接统计工具",
+          icon: "https://xiaomark.com/favicon.png",
+          href: "https://xiaomark.com/"
         }
       ]
     },
